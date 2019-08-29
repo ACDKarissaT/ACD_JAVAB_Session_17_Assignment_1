@@ -7,8 +7,7 @@
 <title>PageSwitching</title>
 </head>
 <body>
-<form action="error.jsp">
-	<input type="submit" value="go to error">
+<% out.println("<form action='error.jsp'><input type='submit' value='go to error'>");%>
 </form>
 </body>
 </html>
